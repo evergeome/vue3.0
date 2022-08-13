@@ -12,6 +12,8 @@
 8. [ npm run test:unit ] to Run your unit tests
 9. [ npm run lint ] to Lints and fixes files
 10. See [Configuration Reference](https://cli.vuejs.org/config/).
+11. [ npm i normalize.css ] to install normalize.css
+12. [ npm uninstall bootstrap @popperjs/core ] to install bootstrap
 
 ## Thanks
 
