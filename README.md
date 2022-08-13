@@ -1,29 +1,18 @@
-# vue3.0
+<p align="center"><a href="https://v2.vuejs.org" target="_blank"><img src="https://v2.vuejs.org/images/logo.svg" height="200"></a></p>
 
-## Project setup
-```
-npm install
-```
+## About Project
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+1. [ npm i -g @vue/cli] to Install vue/cli
+2. [ vue create {project} ] to Create project
+3. [ npm install ] to Project setup
+4. [ npm run serve ] to Compiles and hot-reloads for development
+5. [ npm run build ] to Compiles and minifies for production
+6. [ npm i -g serve ] to Http server setup
+7. [ serve -s dist ] to Compiles for production
+8. [ npm run test:unit ] to Run your unit tests
+9. [ npm run lint ] to Lints and fixes files
+10. See [Configuration Reference](https://cli.vuejs.org/config/).
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Thanks
 
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Done by Karim Ibrahim @2022
