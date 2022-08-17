@@ -1,12 +1,17 @@
 <template>
 	<div class="header">
-		<div class="logo">healthcare</div>
-		<ul>
-			<router-link to="/" exact><a>Home</a></router-link>
-			<router-link to="/blog"><a>Blog</a></router-link>
-			<router-link to="/about"><a>About</a></router-link>
-			<router-link to="/help"><a>Help</a></router-link>
-		</ul>
+		<div class="container">
+			<div class="row">
+				<div class="logo col-auto">healthcare</div>
+				<ul class="col text-end">
+					<router-link to="/" exact><a>Home</a></router-link>
+					<router-link to="/blog"><a>Blog</a></router-link>
+					<router-link to="/about"><a>About</a></router-link>
+					<router-link to="/help"><a>Help</a></router-link>
+				</ul>
+			</div>
+
+		</div>
 	</div>
 </template>
 
@@ -25,19 +30,14 @@ export default {
 	.logo {
 		font-size: 24px;
 		padding: 20px;
-		float: left;
-		width: 200px;
 	}
 
 	ul {
-		float: left;
-		width: calc(100% - 200px);
-		text-align: right;
 		padding: 25px;
 
 		a {
 			color: #fff;
-			padding: 26px 8px;
+			padding: 31px 8px;
 			font-size: 14px;
 		}
 
