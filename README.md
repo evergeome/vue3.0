@@ -14,10 +14,9 @@
 10. See [Configuration Reference](https://cli.vuejs.org/config/).
 11. [ npm i normalize.css ] to install normalize.css
 12. [ npm i bootstrap jquery popper.js ] to install bootstrap
-    then add    - import "bootstrap";
-                - import "bootstrap/dist/css/bootstrap.min.css";
-                to main.js
-13. 
+    then add - import "bootstrap"; - import "bootstrap/dist/css/bootstrap.min.css";
+    to main.js
+13.
 
 ## Thanks
 
